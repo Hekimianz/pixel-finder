@@ -1,0 +1,14 @@
+#root {
+  width: 100%;
+  height: 100%;
+}
+#lvl1--cont {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#lvl1--img {
+  width: 100%;
+  height: 100%;
+}
