@@ -1,4 +1,4 @@
-# Pixel Finder
+# Retro Finder
 
 This is a game like "Where's Waldo?", which challenges players to find a character hidden within a busy and detailed scene.
 
