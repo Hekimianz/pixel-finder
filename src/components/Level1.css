@@ -7,3 +7,19 @@
 #lvl1--img {
   width: 100%;
 }
+
+nav {
+  height: 5vw;
+  max-height: 100px;
+  min-height: 50px;
+  width: 70%;
+  background-color: #01002a;
+  position: fixed;
+  border-radius: 300px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 20px;
+}

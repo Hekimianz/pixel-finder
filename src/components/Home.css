@@ -8,9 +8,50 @@
 
 #home--title {
   font-family: "Press Start 2P";
+  font-size: 1.5em;
 }
 
-/* CSS */
+.home--lvl {
+  width: 100px;
+  height: 100%;
+}
+
+.home--lvlCont {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#home--lvls {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #eb0500;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8em;
+}
+
+a {
+  color: #f0003c;
+  text-decoration: none;
+  font-style: italic;
+}
+
+/* button */
 .button-82-pushable {
   position: relative;
   border: none;
@@ -22,7 +63,7 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 .button-82-shadow {
@@ -101,4 +142,46 @@
 
 .button-82-pushable:focus:not(:focus-visible) {
   outline: none;
+}
+
+@media screen and (min-width: 480px) {
+  #home--title {
+    font-size: 2em;
+  }
+  .home--lvl {
+    width: 170px;
+  }
+
+  #home--lvls {
+    margin-top: 60px;
+  }
+
+  .button-82-pushable {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  #home--title {
+    font-size: 2.5em;
+  }
+  .home--lvl {
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #home--title {
+    font-size: 3em;
+  }
+  .home--lvl {
+    width: 300px;
+  }
+
+  #home--lvls {
+    height: 500px;
+  }
+  footer {
+    font-size: 0.9em;
+  }
 }
