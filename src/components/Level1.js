@@ -1,4 +1,4 @@
-import levelImg from "../1.png";
+import levelImg from "../1.jpeg";
 import "./Level1.css";
 export default function Level1() {
   return (

@@ -3,7 +3,7 @@ import "./Home.css";
 export default function Home() {
   return (
     <div id="home--cont">
-      <h1 id="home--title">Pixel Finder</h1>
+      <h1 id="home--title">Retro Finder</h1>
       <Link to="/1">
         <button className="button-82-pushable">
           <span className="button-82-shadow"></span>
