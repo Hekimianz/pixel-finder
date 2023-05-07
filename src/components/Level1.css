@@ -6,13 +6,14 @@
 
 #lvl1--img {
   width: 100%;
+  cursor: crosshair;
 }
 
 nav {
   height: 5vw;
   max-height: 100px;
   min-height: 50px;
-  width: 70%;
+  width: 50%;
   background-color: #01002a;
   position: fixed;
   border-radius: 300px;
@@ -22,4 +23,47 @@ nav {
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#menu {
+  background-color: rgba(192, 192, 192, 0.828);
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  display: none;
+  flex-direction: column;
+}
+
+.selection {
+  height: 25%;
+  color: black;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.selection:hover {
+  background-color: rgb(219, 219, 219);
+  cursor: pointer;
+}
+
+.selectionPrev {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.selectionPrevImg {
+  height: 70px;
+}
+
+.selectionPrev:first-of-type {
+  margin-left: 100px;
+}
+
+.selectionPrev:last-of-type {
+  margin-right: 100px;
 }
